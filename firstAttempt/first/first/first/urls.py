@@ -23,4 +23,5 @@ urlpatterns = [
     path('', views.index),
     path('admin/', admin.site.urls),
     path('first01/', include('first01.urls')),
+    path('first02/', include('first02.urls')),
 ]
